@@ -4,6 +4,8 @@
 
 ## Build Setup
 
+# go to folder chat-vue
+
 ``` bash
 # install dependencies
 npm install

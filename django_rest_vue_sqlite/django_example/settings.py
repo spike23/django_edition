@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django_summernote',
     'rest_framework',
     'rest_framework.authtoken',
-    'djoser'
+    'djoser',
+
+    'chat_room',
 ]
 
 MIDDLEWARE = [
@@ -108,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Athens'
 
 USE_I18N = True
 
