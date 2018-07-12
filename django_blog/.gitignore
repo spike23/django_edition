@@ -1,6 +1,7 @@
 *.pyc
 *~
 __pycache__
-my_blog
+my_blog/Lib
+my_blog/Scripts
 /static
 .DS_Store
