@@ -3,7 +3,9 @@
 __pycache__
 my_blog/Lib
 my_blog/Scripts
+my_blog/Include
 pyvenv.cfg
 pip-selfcheck.json
 /static
 .DS_Store
+db.sqlite3
