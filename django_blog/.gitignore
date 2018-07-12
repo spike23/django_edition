@@ -1,0 +1,6 @@
+*.pyc
+*~
+__pycache__
+my_blog
+/static
+.DS_Store
