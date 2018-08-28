@@ -23,5 +23,14 @@
                Mann drew deeply from the history of his own family, the Mann family of Lübeck, and their milieu.</p>
             <p>published: 28.08.2018, 10:10</p>
         </div>
+
+        <div>
+            {% for post in posts %}
+
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+                <p>published: {{ post.published_date }}</p>
+            {% endfor %}
+        </div>
     </body>
 </html>
