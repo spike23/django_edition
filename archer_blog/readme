@@ -1,0 +1,16 @@
+
+
+user: archer pass: archer test
+
+http://127.0.0.1:8000/ - home page
+
+http://127.0.0.1:8000/april/edit/ - edit post
+
+http://127.0.0.1:8000/create/ - create post
+
+http://127.0.0.1:8000/post_name/delete - delete post
+
+
+virtualenv -p /usr/bin/python3.5 'your enviroment name' 
+source 'your enviroment root folder path'/bin/activate
+pip install -r requirements.txt
